@@ -58,7 +58,7 @@ export default function KclLevel4({ setNotification }: LevelProps) {
               The molten copper matte is sent to a converter furnace
               </Text>
               <Text fontSize={10} fontWeight="medium">
-              where oxygen removes sulfur and iron to produce blister copper with around 98–99% purity. 
+              where oxygen removes sulfur and iron to produce blister copper with around 98 to 99% purity. 
               </Text>
               <Text fontSize={10} fontWeight="medium">
               This blister copper is then cast into anode sheets
