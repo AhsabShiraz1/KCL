@@ -86,7 +86,7 @@ export default function KclConclusion({ setNotification, setCurrentLevel }: Leve
           >
             <Container flexDirection="column" alignItems="center" justifyContent="center">
               <Text fontSize={12} fontWeight="bold">
-                Enter your session ID to proceed:
+                Enter your employee ID to proceed:
               </Text>
               <Text fontSize={12} fontWeight="bold">
                 Skipping this wont register your score
@@ -94,7 +94,7 @@ export default function KclConclusion({ setNotification, setCurrentLevel }: Leve
               <Input
                 type="text"
                 value={inputValue}
-                placeholder="Enter Session ID"
+                placeholder="Enter employee ID"
                 onValueChange={(value) => setInputValue(value)}
                 marginY={10}
                 borderColor="white"
