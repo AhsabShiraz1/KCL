@@ -21,7 +21,7 @@ export default function KclLevel4({ setNotification }: LevelProps) {
   }
   return (
     <>
-      <Model key="factory" scale={1} position={[0, -2.4, -15]} rotation={[0, 0, 0]} url="https://spaces-storage.s3.ap-south-1.amazonaws.com/factory-crucible-v1.glb" />
+      <Model key="factory" scale={1} position={[0, -2.4, -15]} rotation={[0, 0, 0]} url="/assets/factory-crucible.glb" />
       <Model key="Electric-arc-furnace-grey" scale={8} position={[-10, -9 , -5]} rotation={[0, -Math.PI / 2, 0]} url="/assets/Electric-arc-furnace-grey.glb" />
       <Model key="control-panel" scale={1} position={[-6, -0.5, -5]} rotation={[0, -Math.PI, 0]} url="/assets/control-panel.glb" />
       <Model key="kcl-shed" scale={6} position={[6, -0.5, -5]} rotation={[0, 0, 0]} url="/assets/kcl-box.glb" />
