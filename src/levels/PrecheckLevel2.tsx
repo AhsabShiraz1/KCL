@@ -17,7 +17,7 @@ export default function PrecheckLevel2({ setNotification }: LevelProps) {
 
   return (
     <>
-      <group position={[0, 4.8, -4]}>
+      <group position={[0, 4.2, -4]}>
         <Root>
           <Container flexDirection={"column"} justifyContent="center" alignItems="center">
             <Text fontWeight="bold" fontSize={14} letterSpacing={0} color="#3064D7">
